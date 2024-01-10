@@ -1,0 +1,111 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom right, #add8e6, #c0c0c0); /* Azul Bebê e Cinza */
+    color: #ff66b2; /* Rosa */
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+header {
+    background-color: #808080; /* Cinza */
+    padding: 10px 0;
+    border-radius: 8px;
+}
+
+header h1 {
+    margin: 0;
+    display: inline;
+}
+
+nav {
+    float: right;
+}
+
+.nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-list li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-list a:hover {
+    color: #ffccff; /* Rosa mais claro */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #808080; /* Cinza */
+    color: #fff;
+}
+
+td {
+    background-color: #ffccff;
+}
+
+tr:hover {
+    background-color: #ff99e6;
+}
+
+table:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    background-color: #808080; /* Cinza */
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 8px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    color: #fff;
+}
